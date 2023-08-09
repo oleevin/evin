@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul>
+                    <i class="fas fa-times"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    
+                </ul>
+                <i class="fas fa-bars"></i>
+                
+            </nav>
+
+                <div class="header-text">
+                    <h3 ><span class="text"></span> </h3>
+                    <h1>Hi, I'm <span>Eevin</span><br>I'm from <span id="cambodia">Cambodia</span></h1>
+                </div>        
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>
+                        Hi, My name is <span>EEVIN OL</span>. I am a web developer,
+                        designing and developing website with creative idea and cool design. <br>
+                        Other than web Development, I can also create website style using UX/UI
+                         
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>Robotics</span><br>Ai and smart home</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - 2022</span><br>UI/UX Design</li>
+                            <li><span>2023 - 2022 </span><br>Robotics</li>
+                            <li><span>2022 - 2021</span><br>Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>UI/UX Design</li>
+                            <li><span>2023 </span><br>Robotics</li>
+                            <li><span>2022</span><br>Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>
+                        I can create and design
+                        a website to be attractive, 
+                         beautiful and creative.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am a full stack web developer, I can create a website from 0 to 100
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Robotics</h2>
+                    <p>Creating a robot or Smart home to use my skills well and quality</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Works</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/uxui2.jpg" alt="">
+                    <div class="layer">
+                        <h2>UX/UI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web2.jpg" alt="">
+                    <div class="layer">
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/robots3.jpg" alt="">
+                    <div class="layer">
+                        <h2>Robotics</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fas fa-paper-plane"></i> ahvin@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>(+855) 89-751-698</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Oleevin?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/OLEEVIN1?t=dei30cxnLm5EEQMNnEbAaQ&s=09"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/oleevin_rupp?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/Eevinol"><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1E4QrNCsRB062RzGqN-y6CYmvx9tE1zhR/view?usp=drive_link" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <div class="form">
+
+
+                        <!-- <form id="form">
+                            <input type="text" name="Name"    id="from_name" placeholder="Your Name">
+                            <input type="text" name="Email"  id="eamil_id" placeholder="Your Email">
+                            <input type="text" name="Subject" id="subject" placeholder="Your Subject" required>
+                            <input name="text" rows="6" id="message" placeholder="Your Message">
+                            <input type="submit" class="btn btn3" id="button" value="submit">
+                        </form> -->
+
+
+                         <form id="form">
+                            <div class="field">
+                                <input type="name" name="from_name" id="from_name" placeholder="Your Name">
+                            </div>
+                            <div class="field">
+                                <input type="email" name="eamil_id" id="eamil_id" placeholder="Your Email">
+                            </div>
+                            <div class="field">
+                                <input type="text" name="subject" id="subject" placeholder="Your Subject">
+                              </div>
+                            <div class="field">
+                                <textarea type="message" rows="6" name="message" id="message" placeholder="Your Message"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn3" id="button" value="Send Email" >
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Developed with <i class="fas fa-heart"></i> By EEVIN OL @2023</p>
+        </div>
+    </div>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        emailjs.init('54Rj9szKA-rPWZ6UD')
+    </script>
+
+
+
+
+
+    <a href="#" class="top"><i class='bx bxs-chevron-up'></i></a>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+</body>
+</html>
